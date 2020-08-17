@@ -8,3 +8,8 @@ export const HeaderWrap = styled.div`
     color: #fff;
     font-size: 1.18rem;
 `
+export const SwiperWrap = styled.div`
+    img{
+        width:100%;
+    }
+`
