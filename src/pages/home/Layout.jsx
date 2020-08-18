@@ -7,6 +7,7 @@ import tab3 from "assets/tab3.png"
 import tab4 from "assets/tab4.png"
 //引入组件Cookbook
 import Cookbook from './cookbook/Cookbook'
+import AntDesignLayOut from './AntDesignMobile/AntDesignLayOut'
 
 export default class Layout extends Component {
     constructor(props) {
@@ -90,6 +91,7 @@ export default class Layout extends Component {
                         }}
                         data-seed="logId1"
                     >
+                        <AntDesignLayOut></AntDesignLayOut>
                     </TabBar.Item>
                     <TabBar.Item
                         icon={
