@@ -8,7 +8,7 @@ import tab4 from "assets/tab4.png"
 //引入组件Cookbook
 import Cookbook from './cookbook/Cookbook'
 import AntDesignLayOut from './AntDesignMobile/AntDesignLayOut'
-
+import FatherSon from './fatherSon/Father'
 export default class Layout extends Component {
     constructor(props) {
         super(props);
@@ -133,6 +133,7 @@ export default class Layout extends Component {
                             });
                         }}
                     >
+                        <FatherSon></FatherSon>   
                     </TabBar.Item>
                 </TabBar>
             </div>
