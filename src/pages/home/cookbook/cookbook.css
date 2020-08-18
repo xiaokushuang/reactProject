@@ -6,3 +6,35 @@
     color: #fff;
     font-size: 1.18rem;
 }
+.hotSortClass{
+    background: #fff;
+    padding: 10px;
+
+}
+.hotSortClass .title{
+    color:gray;
+    padding: 10px 0 15px 0;
+}
+.sortListClass{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+}
+.sortListClass .sortItemClass{
+    width: 25%;
+    height: 2.62rem;
+    text-align: center;
+    line-height: 2.62rem;
+    border-right: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+.sortListClass .sortItemActiveClass{
+    width: 25%;
+    height: 2.62rem;
+    text-align: center;
+    line-height: 2.62rem;
+    background: gainsboro;
+    border-right: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
