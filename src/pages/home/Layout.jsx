@@ -9,6 +9,7 @@ import tab4 from "assets/tab4.png"
 import Cookbook from './cookbook/Cookbook'
 import AntDesignLayOut from './AntDesignMobile/AntDesignLayOut'
 import FatherSon from './fatherSon/Father'
+import QuestionAll from './writtenTest/QuestionAll'
 export default class Layout extends Component {
     constructor(props) {
         super(props);
@@ -120,6 +121,7 @@ export default class Layout extends Component {
                             });
                         }}
                     >
+                        <QuestionAll></QuestionAll>
                     </TabBar.Item>
                     <TabBar.Item
                         icon={{uri: tab4}}
