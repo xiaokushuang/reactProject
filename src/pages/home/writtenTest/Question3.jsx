@@ -4,7 +4,6 @@ class Question3 extends Component {
     render() {
         return (
             <div>
-                <p>第三题</p>
             </div>
         );
     }
